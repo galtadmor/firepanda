@@ -7,7 +7,7 @@ export class List extends React.Component<{}, any>{
   state = {
     items: [],
     title: '',
-    loading: false
+    loading: true
   }
 
   componentDidMount() {
